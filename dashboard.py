@@ -22,7 +22,7 @@ def add_bar_annotations(fig):
 st.title(" Analytics Programming and Data Visualisation")
 st.markdown("This dashboard presents exploratory data analysis for three distinct datasets related to energy.")
 
-#  colors
+#  colors for dashboard
 VIBRANT_COLORS = px.colors.qualitative.Prism
 
 tab1, tab2, tab3 = st.tabs([" Energy Dataset (JSON)", " SEI06 Dataset (CSV)", " Europe Electricity (CSV)"])
